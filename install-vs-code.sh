@@ -8,5 +8,5 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 # update the package cache and install the package using dnf (Fedora 22 and above):
 
 dnf check-update
-sudo dnf install code
+sudo dnf install -y code ansible-lint
 
